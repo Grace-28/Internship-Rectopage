@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
             for(int i=0; i<jsonArray.length();i++)
             {
                 JSONObject obj =jsonArray.getJSONObject(i);
-                //if(obj.getString("question_number").equals("j++"))
-               // {
+                
+             
                     arrayList.add(obj.getString("question"));
 
-                //}
-            }//Toast.makeText(getApplicationContext(),arrayList.toString(),Toast.LENGTH_LONG).show();
+              
+            }
 
         }catch (IOException e)
         {
